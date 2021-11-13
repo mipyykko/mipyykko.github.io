@@ -8,7 +8,7 @@ Hi, I'm Mikko, and I'm a Computer Science MSc student at the University of Helsi
 
 ## Find me on
 
-[LinkedIn](https://www.linkedin.com/in/mikko-pyykk%C3%B6-5b15a8140/), [GitHub](https://github.com/mipyykko)
+[LinkedIn](https://www.linkedin.com/in/mikko-pyykk%C3%B6-5b15a8140/), [GitHub](https://github.com/mipyykko), [CV](https://www.overleaf.com/read/bgmhmbcqpqkw)
 
 ## Contact
 
