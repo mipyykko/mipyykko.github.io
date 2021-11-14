@@ -122,7 +122,7 @@ Example:
 git checkout -B new-branch
 git add -A
 git commit -m "initial commit for new branch"
-git push
+git push origin new-branch
 ```
 
 This creates a new branch called ```new-branch```, checks it out, adds all files to it, then commits it. It then pushes the branch to the remote repository.
