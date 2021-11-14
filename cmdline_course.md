@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# Command-Line Tools for Linguists
+
+This course introduces the basics of UNIX command-line tools and using them for corpus processing tasks of different levels. It also introduces basic version control and collaboration tools, and at the end of the course, a small-scale project to create a simple home page.
+
+![XKCD: command line fu](https://imgs.xkcd.com/comics/command_line_fu.png)
+
 Quick links to each week:
 
 * [Week 1](#week-1)
@@ -12,6 +18,8 @@ Quick links to each week:
 * [Week 6](#week-6)
 * [Week 7](#week-7)
 * [Week 8](#week-8)
+
+
 ## Week 1
 ### Introduction to Command Line Environments
 
@@ -119,6 +127,20 @@ Seventh week covered the use of ```git``` for version control, and use of GitHub
 Example:
 
 ```bash
+apt-cache search python3
+sudo apt-get install python3-pip
+```
+
+This will search the ```apt``` package manager for all packages containing the keyword ```python3```. After that, we use ```sudo``` to get root privileges to install ```python3-pip```, which is a package manager for Python.
+
+## Week 8
+### Building Webpages using GitHub Pages
+
+The last week seemed a bit disconnected from the other topics on the course. It continued on the ```git``` and GitHub related theme of previous week. Jekyll is probably fine for creating webpages from Markdown files quickly, but it seems a bit dated and cumbersome. This is only my personal opinion, which is obviously affected by having used other solutions such as Gatsby and Next.js.
+
+Example: 
+
+```bash
 git checkout -B new-branch
 git add -A
 git commit -m "initial commit for new branch"
@@ -126,9 +148,3 @@ git push origin new-branch
 ```
 
 This creates a new branch called ```new-branch```, checks it out, adds all files to it, then commits it. It then pushes the branch to the remote repository.
-
-## Week 8
-### Building Webpages using GitHub Pages
-
-The last week seemed a bit disconnected from the other topics on the course. It continued on the ```git``` and GitHub related theme of previous week. Jekyll is probably fine for creating webpages from Markdown files quickly, but it seems a bit dated and cumbersome. This is only my personal opinion, which is obviously affected by having used other solutions such as Gatsby and Next.js.
-
